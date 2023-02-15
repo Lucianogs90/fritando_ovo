@@ -1,0 +1,15 @@
+.card {
+  border: 1px solid #eb5757;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card__title {
+  color: #eb5757;
+}
+
+.card__content {
+  font-size: 14px;
+}
+
