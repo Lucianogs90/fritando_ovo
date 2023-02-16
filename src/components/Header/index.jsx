@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div>
-        <img src="/frigideira.svg" alt="Imagem de uma frigideira" />
+        <img src="/images/frigideira.svg" alt="Imagem de uma frigideira" />
       </div>
 
       <div>
