@@ -1,16 +1,31 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+
   border: 1px solid #eb5757;
   border-radius: 5px;
-  padding: 10px;
   margin: 10px;
+
+  height: 400px;
+  width: 387px;
+  position: relative;
+}
+
+.card__image {
+  border-radius: 5px 5px 0 0;
 }
 
 .card__title {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
+  position: absolute;
+  top: 233px;
+  
 
-  width: 387px;
+  width:386px;
   height: 64px;
 
   font-family: "Quicksand";
@@ -27,8 +42,12 @@
 }
 
 .card__content {
-  width: 120px;
+  width: 200px;
   height: 18px;
+
+  margin-top:16px;
+  margin-left: 16px;
+  padding: 16px;
   
   font-family: "Quicksand";
   font-style: normal;
@@ -41,6 +60,7 @@
   display: flex;
   align-items: center;
   justify-content: left;
+  margin-bottom: 8px;
 }
 
 .card__content img{

@@ -1,8 +1,16 @@
 import styles from "./Card.module.css";
 
-export default function Card({ titulo, tempoPreparo, porcoes }) {
+export default function Card({
+  titulo,
+  tempoPreparo,
+  porcoes,
+  imagem,
+  descricao,
+}) {
   return (
     <div className={styles.card}>
+      <img src={imagem} alt={descricao} className={styles.card__image} />
+
       <h2 className={styles.card__title}>{titulo}</h2>
 
       <div className={styles.card__content}>
@@ -19,7 +27,6 @@ export default function Card({ titulo, tempoPreparo, porcoes }) {
             <span>{porcoes} pessoa(s)</span>
           </p>
         </div>
-        
       </div>
     </div>
   );

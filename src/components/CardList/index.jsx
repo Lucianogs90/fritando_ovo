@@ -1,14 +1,19 @@
 import styles from "./CardList.module.css";
 import Card from "../Card";
 
-export default function CardList() {
+export default function CardList({ receitas }) {
   return (
     <div className={styles.cardList}>
-      <Card titulo="Ovo com arroz e pepino" tempoPreparo="25" porcoes="2" />
-
-      <Card titulo="Ovo de Codorna" tempoPreparo="15" porcoes="2" />
-
-      <Card titulo="Ovo com abacate" tempoPreparo="10" porcoes="1" />
+      {receitas.map((receita) => (
+        <Card
+          key={receita.id}
+          titulo={receita.titulo}
+          tempoPreparo={receita.tempoPreparo}
+          porcoes={receita.porcoes}
+          imagem={receita.imagem}
+          descricao={receita.descricao}
+        />
+      ))}
     </div>
   );
 }
