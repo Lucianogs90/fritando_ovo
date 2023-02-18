@@ -11,3 +11,18 @@
   margin: auto;
   padding: 40px 60px;
 }
+
+@media screen and (max-width: 1024px) {
+  .cardList {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+  
+@media screen and (max-width: 600px) {
+  .cardList {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+  
