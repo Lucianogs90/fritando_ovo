@@ -1,0 +1,31 @@
+.navigation {
+}
+
+.navigation__lista {
+  display: flex;
+  justify-content: left;
+
+  list-style: none;
+  
+  width: 960px;
+  margin: 16px;
+}
+
+.navigation__lista__item {
+  padding: 16px;
+  margin: 0 10px;
+
+  border: 0.5px solid #eb5757;
+  border-radius: 5px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.navigation__lista__item:hover {
+  background-color: #eb5757;
+  color: #ffffff;
+}

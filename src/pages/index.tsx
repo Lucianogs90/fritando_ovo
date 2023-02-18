@@ -1,5 +1,7 @@
 import CardList from "../components/CardList";
 import Header from "../components/Header";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const receitas = [
@@ -19,6 +21,10 @@ export default function Home() {
       <Header />
 
       <CardList receitas={receitas} />
+
+      <Navigation /> 
+
+      <Footer />
     </>
   );
 }
