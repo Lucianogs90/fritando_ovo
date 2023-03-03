@@ -1,7 +1,16 @@
 import styles from "./CardList.module.css";
 import Card from "../Card";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
-export default function CardList({ receitas }) {
+export default function CardList() {
+  const [receitas, setReceitas] = useState([]);
+  const url = "http://localhost:3010/receitas";
+
+  useEffect(() => {
+    axios.get(url).then((response) => setReceitas(response.data));
+  }, []);
+
   return (
     <div className={styles.cardList}>
       {receitas.map((receita) => (
