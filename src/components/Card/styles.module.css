@@ -1,0 +1,52 @@
+.cards__container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.card {
+  border: 1px solid #eb5757;
+  border-radius: 5px;
+  margin-top: 16px;
+}
+
+.image__container{
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card__title {
+  color: #F2F2F2;
+  background-color:rgba(235, 87, 87, 0.6);
+  width: 387px;
+  height: 64px;
+  position: absolute;
+  font-family: 'Quicksand';
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.card__info {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 19px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.info__container {
+  display: flex;  
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.vector{
+  margin-left: 8px;
+}

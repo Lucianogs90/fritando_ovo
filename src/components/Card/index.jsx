@@ -1,33 +1,25 @@
-import styles from "./Card.module.css";
+import styles from "./styles.module.css";
 
-export default function Card({
-  titulo,
-  tempoPreparo,
-  porcoes,
-  imagem,
-  descricao,
-}) {
-  return (
-    <div className={styles.card}>
-      <img src={imagem} alt={descricao} className={styles.card__image} />
+export default function Card({titulo, tempoPreparo, porcoes, imagem, descricao}){
 
-      <h2 className={styles.card__title}>{titulo}</h2>
-
-      <div className={styles.card__content}>
-        <div>
-          <img src="/images/relogio.svg" alt="Ícone de um relógio" />
-          <p>
-            <span>{tempoPreparo} minuto(s)</span>
-          </p>
-        </div>
-
-        <div>
-          <img src="/images/hot-meal.svg" alt="Ícone de comida pronta" />
-          <p>
-            <span>{porcoes} pessoa(s)</span>
-          </p>
-        </div>
-      </div>
-    </div>
-  );
+  return(
+      <main className={styles.cards__container}>
+          <div className={styles.card}>{/* só pode ter um elemento html na raiz */}
+              <div className={styles.image__container}>
+                  <img src={imagem} alt={descricao} />
+                  <h2 className={styles.card__title}>{titulo}</h2> {/* class é uma palavra reservada do javascript, usa-se className */}
+              </div>
+              <div className={styles.card__info}>
+                  <div className={styles.info__container}>
+                      <img src="relogio.svg" alt="Relógio" />
+                      <span className={styles.vector}>{tempoPreparo} minutos</span>
+                  </div>
+                  <div className={styles.info__container}>
+                      <img src="comida.svg" alt="Pote de comida" />
+                      <span className={styles.vector}>serve {porcoes} pessoas</span>
+                  </div>
+              </div>
+          </div>
+      </main>
+  )
 }

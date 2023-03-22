@@ -9,11 +9,5 @@
     {"id": 7, "titulo": "Ovo pochê", "tempoPreparo": "10", "porcoes": "1", "imagem":"/images/pexels-07.png"},
     {"id": 8, "titulo": "Ovo de codorna", "tempoPreparo": "15", "porcoes": "1", "imagem":"/images/pexels-03.png"},
     {"id": 9, "titulo": "Ovo mexido", "tempoPreparo": "10", "porcoes": "1", "imagem":"/images/pexels-04.png"}
-  ],
-  "usuarios": [
-    {"id": 1, "nome": "João", "email": "jao@joao.com", "senha": "123456"},
-    {"id": 2, "nome": "Maria", "email": "maria@maria.com", "senha":"123456"},
-    {"id": 3, "nome": "José", "email": "jose@jose.com", "senha":"123456"},
-    {"id": 4, "nome": "Ana", "email": "ana@ana.com", "senha":"123456"},
-    {"id": 5, "nome": "Pedro", "email": "pedro@pedro", "senha": "123456"}
+  ]
 }

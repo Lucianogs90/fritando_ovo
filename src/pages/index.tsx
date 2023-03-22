@@ -2,7 +2,6 @@ import CardList from "../components/CardList";
 import Header from "../components/Header";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
-import UsuariosTable from "../components/UsuariosTable";
 
 export default function Home() {
 
@@ -12,9 +11,7 @@ export default function Home() {
       <Header />
 
       <CardList />
-
-      <UsuariosTable />
-
+      
       <Navigation /> 
 
       <Footer />

@@ -1,4 +1,4 @@
-import styles from "./CardList.module.css";
+import styles from "./styles.module.css";
 import Card from "../Card";
 import { useEffect, useState } from "react";
 import axios from "axios";
