@@ -74,7 +74,7 @@ export default function PreviewPDF() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus facilis natus ipsam accusamus doloremque aspernatur cumque, voluptates quas asperiores deleniti dolores fugit laborum assumenda quibusdam hic recusandae pariatur voluptatem nisi.
         </p>
 
-        <p className={styles.content}>Fonte: TudoGostoso</p>
+        <p className={styles.content}>Fonte: Tudo Gostoso</p>
       </div>
     </>
   );

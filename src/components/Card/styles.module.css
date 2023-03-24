@@ -1,4 +1,4 @@
-.cards__container{
+.cards__container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -10,19 +10,19 @@
   margin-top: 16px;
 }
 
-.image__container{
+.image__container {
   position: relative;
   display: flex;
   flex-direction: column-reverse;
 }
 
 .card__title {
-  color: #F2F2F2;
-  background-color:rgba(235, 87, 87, 0.6);
+  color: #f2f2f2;
+  background-color: rgba(235, 87, 87, 0.6);
   width: 387px;
   height: 64px;
   position: absolute;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-weight: 600;
   font-size: 22px;
   text-align: center;
@@ -30,7 +30,7 @@
 }
 
 .card__info {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -41,12 +41,12 @@
 }
 
 .info__container {
-  display: flex;  
+  display: flex;
   flex-direction: row;
   align-items: center;
   margin-bottom: 16px;
 }
 
-.vector{
+.vector {
   margin-left: 8px;
 }
